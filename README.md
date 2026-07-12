@@ -19,6 +19,6 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![](https://komarev.com/ghpvc/?username=Vinod650754&icon=0&color=1)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=Vinod650754&icon=0&color=blue)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
