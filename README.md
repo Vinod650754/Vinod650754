@@ -32,28 +32,13 @@
 
 ## `CURRENT SIGNAL // 02`
 
-What the tracker is picking up right now — not a skills chart, just where the attention is going.
-
-| STATE | READING |
-|---|---|
-| 🟢 **ACTIVE** | Java DSA · SQL |
-| 🟡 **LEARNING** | Backend development · AI · Generative AI |
-| 🔵 **EXPLORING** | Flutter · Open Source |
-| ⚪ **QUEUED** | System Design |
+<img src="assets/vtracker-signal.svg" width="100%" alt="Signal scan — active: Java DSA, SQL. Learning: backend development, AI, generative AI. Exploring: Flutter, open source. Queued: system design.">
 
 <br>
 
 ## `ACTIVITY LOG // 03`
 
-```
-[ACTIVE]       Java DSA practice
-[ACTIVE]       SQL learning
-[BUILDING]     AI Resume Builder + ATS Analyzer
-[PRODUCTION]   Spandana Website
-[DEVELOPING]   ECN-Based Proportional Congestion Control
-[EXPLORING]    Flutter
-[EXPLORING]    Open Source
-```
+<img src="assets/vtracker-activity.svg" width="100%" alt="Activity log — detections across current work, most recent first">
 
 <br>
 
@@ -63,6 +48,8 @@ Status key used across every record below:
 🟢 `CONFIRMED / ACTIVE`  🟡 `DEVELOPING`  🔵 `EXPERIMENTAL`  ⚪ `ARCHIVED / HACKATHON`
 
 <br>
+
+<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
 
 ### 🟢 SIGHTING 001 — AI Resume Builder + ATS Analyzer
 <sub>flagship record</sub>
@@ -83,6 +70,8 @@ Status key used across every record below:
 
 <br>
 
+<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
+
 ### 🟢 SIGHTING 002 — Question For The Day (QFAD)
 
 | FIELD | READING |
@@ -101,6 +90,8 @@ Status key used across every record below:
 
 <br>
 
+<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
+
 ### 🟢 SIGHTING 003 — Spandana Website
 
 | FIELD | READING |
@@ -118,6 +109,8 @@ Status key used across every record below:
 [![Live System](https://img.shields.io/badge/LIVE_SYSTEM-21c979?style=for-the-badge&logo=vercel&logoColor=101014&labelColor=101014)](https://spandana-seven.vercel.app/)
 
 <br>
+
+<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
 
 ### 🟡 SIGHTING 004 — ECN-Based Proportional Congestion Control
 
@@ -146,6 +139,10 @@ No public repository or implementation details yet — this one's still classifi
 <br>
 
 ## `TECHNOLOGY SCAN // 05`
+
+<img src="assets/vtracker-techscan.svg" width="100%" alt="Technology scan in progress">
+
+<br>
 
 <table>
 <tr><td valign="top" width="50%">
@@ -207,15 +204,7 @@ No public repository or implementation details yet — this one's still classifi
 
 ## `AI SIGNAL WATCH // 06`
 
-Not a research profile — this is AI as it shows up inside real applications I've shipped.
-
-| SIGNAL | STATE |
-|---|---|
-| OpenAI / AI APIs | 🟢 USED IN PROJECTS |
-| AI-powered applications | 🟢 ACTIVE |
-| AI-driven recommendations | 🔵 EXPERIMENTING |
-| Generative AI | 🟡 LEARNING |
-| LLM applications | 🔵 EXPLORING |
+<img src="assets/vtracker-aiwatch.svg" width="100%" alt="AI signal watch — AI as it shows up inside shipped applications, not a research profile">
 
 <br>
 
@@ -227,20 +216,13 @@ Not a research profile — this is AI as it shows up inside real applications I'
 
 ## `SYSTEM TELEMETRY // 08`
 
+<img src="assets/vtracker-webframe.svg" width="100%" alt="System telemetry — web traversal signal, live">
+
 <div align="center">
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=Vinod650754&hide_border=true&count_private=true&include_all_commits=true&bg_color=07070a&title_color=ff1f3d&icon_color=ff1f3d&text_color=9a9aa2&border_color=232329)
 ![Streak](https://streak-stats.demolab.com/?user=Vinod650754&hide_border=true&background=07070a&ring=ff1f3d&fire=ff1f3d&currStreakLabel=e8e8ea&sideNums=e8e8ea&currStreakNum=e8e8ea&sideLabels=9a9aa2&dates=58585f&border=232329)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vinod650754&hide_border=true&layout=compact&bg_color=07070a&title_color=ff1f3d&text_color=9a9aa2&border_color=232329)
-
-**CONTRIBUTION SIGNAL**
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vinod650754/Vinod650754/output/github-contribution-grid-snake-dark.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Vinod650754/Vinod650754/output/github-contribution-grid-snake.svg">
-</picture>
-
-<sub>Snake renders once the workflow below has run at least once — see <code>GITHUB SETUP</code>.</sub>
 
 </div>
 
@@ -248,13 +230,15 @@ Not a research profile — this is AI as it shows up inside real applications I'
 
 ## `ARCHIVES // 09`
 
-```
-/projects      → AI Resume Builder + ATS · QFAD · Spandana Website
-/research      → ECN-Based Proportional Congestion Control
-/experiments   → AudioBook
-/hackathons    → HAL_LORD_CODERS
-/learning      → Java DSA · SQL · System Design (queued)
-```
+Everything on this profile, sorted into one place.
+
+| CASE FILE | CONTENTS |
+|---|---|
+| **PROJECTS** | AI Resume Builder + ATS · QFAD · Spandana Website |
+| **RESEARCH** | ECN-Based Proportional Congestion Control |
+| **EXPERIMENTS** | AudioBook |
+| **HACKATHONS** | HAL_LORD_CODERS |
+| **LEARNING** | Java DSA · SQL · System Design (queued) |
 
 <br>
 
