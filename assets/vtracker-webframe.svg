@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System telemetry — web traversal signal, live">
+  <defs>
+    <pattern id="wfGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="90" rx="8" fill="#0b0b0e"/>
+  <rect width="1200" height="90" rx="8" fill="url(#wfGrid)"/>
+  <rect width="1200" height="90" rx="8" fill="none" stroke="#232329"/>
+
+  <!-- corner threads -->
+  <g stroke="#ff1f3d" stroke-opacity="0.18" stroke-width="1">
+    <line x1="0" y1="0" x2="60" y2="45"/>
+    <line x1="0" y1="90" x2="60" y2="45"/>
+    <line x1="1200" y1="0" x2="1140" y2="45"/>
+    <line x1="1200" y1="90" x2="1140" y2="45"/>
+  </g>
+
+  <!-- the thread the signal travels along -->
+  <path id="webThread" d="M60,45 H1140" fill="none" stroke="#ff1f3d" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="2 6"/>
+
+  <circle r="4" fill="#ff1f3d">
+    <animateMotion dur="3.6s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear">
+      <mpath href="#webThread"/>
+    </animateMotion>
+  </circle>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace" text-anchor="middle">
+    <text x="600" y="40" font-size="13" letter-spacing="3" fill="#ff1f3d">SYSTEM TELEMETRY</text>
+    <text x="600" y="58" font-size="10.5" letter-spacing="1.5" fill="#58585f">WEB TRAVERSAL SIGNAL — LIVE</text>
+  </g>
+</svg>

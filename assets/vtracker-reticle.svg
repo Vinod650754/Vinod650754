@@ -1,0 +1,13 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="target lock reticle">
+  <circle cx="30" cy="30" r="24" fill="none" stroke="#ff1f3d" stroke-opacity="0.5" stroke-width="1.5">
+    <animate attributeName="r" values="24;27;24" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.55;0.2;0.55" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="30" r="3.2" fill="#ff1f3d"/>
+  <g stroke="#ff1f3d" stroke-width="2">
+    <line x1="30" y1="2" x2="30" y2="12"/>
+    <line x1="30" y1="48" x2="30" y2="58"/>
+    <line x1="2" y1="30" x2="12" y2="30"/>
+    <line x1="48" y1="30" x2="58" y2="30"/>
+  </g>
+</svg>

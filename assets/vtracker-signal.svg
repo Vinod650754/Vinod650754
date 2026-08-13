@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Signal scan — current activity states: active, learning, exploring, queued">
+  <defs>
+    <pattern id="sgGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="10" fill="#0b0b0e"/>
+  <rect width="1200" height="300" rx="10" fill="url(#sgGrid)"/>
+  <rect width="1200" height="300" rx="10" fill="none" stroke="#232329"/>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace">
+    <g transform="translate(40,42)">
+      <circle r="12" fill="none" stroke="#ff1f3d" stroke-opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M0 0 L12 0 A12 12 0 0 1 8 9 Z" fill="#ff1f3d" opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="66" y="48" font-size="13" letter-spacing="3" fill="#ff1f3d">SIGNAL SCAN</text>
+    <text x="66" y="66" font-size="10.5" letter-spacing="1.5" fill="#58585f">WHAT THE TRACKER IS PICKING UP RIGHT NOW</text>
+    <line x1="40" y1="82" x2="1160" y2="82" stroke="#232329"/>
+
+    <!-- rows: state, items, color, y, delay -->
+    <g>
+      <!-- ACTIVE -->
+      <g transform="translate(40,118)">
+        <rect x="0" y="-16" width="4" height="32" fill="#21c979"/>
+        <circle cx="26" cy="0" r="5" fill="#21c979"/>
+        <circle cx="26" cy="0" r="5" fill="none" stroke="#21c979">
+          <animate attributeName="r" values="5;20;5" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+          <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+        </circle>
+        <text x="48" y="-2" font-size="12.5" font-weight="700" fill="#21c979">ACTIVE</text>
+        <text x="48" y="16" font-size="12.5" fill="#c9c9cf">Java DSA · SQL</text>
+      </g>
+      <!-- LEARNING -->
+      <g transform="translate(40,168)">
+        <rect x="0" y="-16" width="4" height="32" fill="#ffb020"/>
+        <circle cx="26" cy="0" r="5" fill="#ffb020"/>
+        <circle cx="26" cy="0" r="5" fill="none" stroke="#ffb020">
+          <animate attributeName="r" values="5;20;5" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+          <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+        </circle>
+        <text x="48" y="-2" font-size="12.5" font-weight="700" fill="#ffb020">LEARNING</text>
+        <text x="48" y="16" font-size="12.5" fill="#c9c9cf">Backend development · AI · Generative AI</text>
+      </g>
+      <!-- EXPLORING -->
+      <g transform="translate(40,218)">
+        <rect x="0" y="-16" width="4" height="32" fill="#3aa0ff"/>
+        <circle cx="26" cy="0" r="5" fill="#3aa0ff"/>
+        <circle cx="26" cy="0" r="5" fill="none" stroke="#3aa0ff">
+          <animate attributeName="r" values="5;20;5" dur="2.4s" repeatCount="indefinite" begin="1.2s"/>
+          <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite" begin="1.2s"/>
+        </circle>
+        <text x="48" y="-2" font-size="12.5" font-weight="700" fill="#3aa0ff">EXPLORING</text>
+        <text x="48" y="16" font-size="12.5" fill="#c9c9cf">Flutter · Open Source</text>
+      </g>
+      <!-- QUEUED -->
+      <g transform="translate(640,118)">
+        <rect x="0" y="-16" width="4" height="32" fill="#58585f"/>
+        <circle cx="26" cy="0" r="5" fill="#58585f"/>
+        <text x="48" y="-2" font-size="12.5" font-weight="700" fill="#9a9aa2">QUEUED</text>
+        <text x="48" y="16" font-size="12.5" fill="#c9c9cf">System Design</text>
+      </g>
+    </g>
+  </g>
+</svg>

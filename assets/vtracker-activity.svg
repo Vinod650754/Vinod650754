@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Activity log — detected activity across current work">
+  <defs>
+    <pattern id="alGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" rx="10" fill="#0b0b0e"/>
+  <rect width="1200" height="400" rx="10" fill="url(#alGrid)"/>
+  <rect width="1200" height="400" rx="10" fill="none" stroke="#232329"/>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace">
+    <text x="40" y="46" font-size="13" letter-spacing="3" fill="#ff1f3d">ACTIVITY LOG</text>
+    <text x="40" y="64" font-size="10.5" letter-spacing="1.5" fill="#58585f">DETECTIONS, MOST RECENT FIRST</text>
+    <line x1="40" y1="80" x2="1160" y2="80" stroke="#232329"/>
+
+    <!-- rows -->
+    <g font-size="12.5">
+      <!-- template: ping at x=58, tag at x=90, desc at x=230 -->
+      <g transform="translate(0,112)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="0.0s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="0.0s"/></circle>
+        <text x="90" y="4" fill="#21c979" font-weight="700">[ACTIVE]</text>
+        <text x="230" y="4" fill="#e8e8ea">Java DSA practice</text>
+      </g>
+      <g transform="translate(0,156)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="0.3s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="0.3s"/></circle>
+        <text x="90" y="4" fill="#21c979" font-weight="700">[ACTIVE]</text>
+        <text x="230" y="4" fill="#e8e8ea">SQL learning</text>
+      </g>
+      <g transform="translate(0,200)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="0.6s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="0.6s"/></circle>
+        <text x="90" y="4" fill="#21c979" font-weight="700">[BUILDING]</text>
+        <text x="270" y="4" fill="#e8e8ea">AI Resume Builder + ATS Analyzer</text>
+      </g>
+      <g transform="translate(0,244)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="0.9s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="0.9s"/></circle>
+        <text x="90" y="4" fill="#21c979" font-weight="700">[PRODUCTION]</text>
+        <text x="290" y="4" fill="#e8e8ea">Spandana Website</text>
+      </g>
+      <g transform="translate(0,288)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="1.2s"/></circle>
+        <text x="90" y="4" fill="#ffb020" font-weight="700">[DEVELOPING]</text>
+        <text x="290" y="4" fill="#e8e8ea">ECN-Based Proportional Congestion Control</text>
+      </g>
+      <g transform="translate(0,332)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="1.5s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="1.5s"/></circle>
+        <text x="90" y="4" fill="#3aa0ff" font-weight="700">[EXPLORING]</text>
+        <text x="270" y="4" fill="#e8e8ea">Flutter</text>
+      </g>
+      <g transform="translate(0,368)">
+        <circle cx="58" cy="0" r="4" fill="#ff1f3d"/>
+        <circle cx="58" cy="0" r="4" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="4;16;4" dur="2.6s" repeatCount="indefinite" begin="1.8s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite" begin="1.8s"/></circle>
+        <text x="90" y="4" fill="#3aa0ff" font-weight="700">[EXPLORING]</text>
+        <text x="270" y="4" fill="#e8e8ea">Open Source</text>
+      </g>
+    </g>
+  </g>
+</svg>
