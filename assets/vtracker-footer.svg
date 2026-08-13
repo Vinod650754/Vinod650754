@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="V//TRACKER footer signal strip">
+  <defs>
+    <linearGradient id="footScan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff1f3d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="footGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="140" rx="10" fill="#07070a"/>
+  <rect width="1200" height="140" rx="10" fill="url(#footGrid)"/>
+  <rect width="1200" height="140" rx="10" fill="none" stroke="#232329"/>
+
+  <rect x="-120" y="0" width="120" height="140" fill="url(#footScan)">
+    <animate attributeName="x" values="-120;1200" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace" text-anchor="middle">
+    <text x="600" y="52" font-size="20" font-weight="700" letter-spacing="3" fill="#f2f2f4">V<tspan fill="#ff1f3d">//</tspan>TRACKER</text>
+    <text x="600" y="82" font-size="13" letter-spacing="4" fill="#9a9aa2">LEARN <tspan fill="#ff1f3d">→</tspan> BUILD <tspan fill="#ff1f3d">→</tspan> DEBUG <tspan fill="#ff1f3d">→</tspan> IMPROVE</text>
+    <g transform="translate(600,110)">
+      <circle cx="-70" cy="-4" r="4" fill="#21c979">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-56" y="0" font-size="11.5" letter-spacing="2" fill="#58585f" text-anchor="start">SIGNAL ACTIVE</text>
+    </g>
+  </g>
+</svg>

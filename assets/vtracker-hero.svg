@@ -1,1 +1,78 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="V//TRACKER — Developer Intelligence and Activity System — Vinod M V">
+  <defs>
+    <radialGradient id="glow" cx="28%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ringFade" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#ff1f3d" stop-opacity="0"/>
+      <stop offset="97%" stop-color="#ff1f3d" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff1f3d" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="320" rx="10"/></clipPath>
+  </defs>
 
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#07070a"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- radar cluster, upper right -->
+    <g transform="translate(1010,95)" opacity="0.9">
+      <circle r="34" fill="none" stroke="#ff1f3d" stroke-opacity="0.25"/>
+      <circle r="60" fill="none" stroke="#ff1f3d" stroke-opacity="0.16"/>
+      <circle r="86" fill="none" stroke="#ff1f3d" stroke-opacity="0.09"/>
+      <line x1="-86" y1="0" x2="86" y2="0" stroke="#ff1f3d" stroke-opacity="0.08"/>
+      <line x1="0" y1="-86" x2="0" y2="86" stroke="#ff1f3d" stroke-opacity="0.08"/>
+      <g>
+        <path d="M0 0 L86 0 A86 86 0 0 1 78.8 34.6 Z" fill="url(#ringFade)" opacity="0.5"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="6s" repeatCount="indefinite"/>
+      </g>
+      <circle r="3.2" fill="#ff1f3d">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- scanning sweep line across whole banner -->
+    <rect x="0" y="-40" width="1200" height="40" fill="url(#scanGrad)">
+      <animate attributeName="y" values="-40;320" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner HUD brackets -->
+    <g stroke="#ff1f3d" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M18 40 V18 H40"/>
+      <path d="M1160 18 H1182 V40"/>
+      <path d="M18 280 V302 H40"/>
+      <path d="M1160 302 H1182 V280"/>
+    </g>
+
+    <!-- main text block -->
+    <g font-family="'JetBrains Mono','Fira Code',ui-monospace,Consolas,monospace">
+      <text x="60" y="108" font-size="17" letter-spacing="6" fill="#8a8a92">DEVELOPER INTELLIGENCE &amp; ACTIVITY SYSTEM</text>
+
+      <text x="58" y="168" font-size="58" font-weight="700" fill="#ff1f3d">V<tspan fill="#f2f2f4">//</tspan><tspan fill="#f2f2f4">TRACKER</tspan></text>
+
+      <line x1="60" y1="196" x2="560" y2="196" stroke="#232329" stroke-width="1.5"/>
+
+      <text x="60" y="232" font-size="24" font-weight="600" letter-spacing="1" fill="#f2f2f4">VINOD M V</text>
+      <text x="60" y="258" font-size="14" letter-spacing="2.5" fill="#ff1f3d">SOFTWARE ENGINEER • AI BUILDER</text>
+
+      <g transform="translate(60,290)">
+        <circle cx="0" cy="-4" r="4" fill="#21c979">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="14" y="0" font-size="12.5" letter-spacing="2" fill="#9a9aa2">SIGNAL ONLINE — TRACKING ACTIVE</text>
+      </g>
+    </g>
+
+    <rect width="1200" height="320" fill="none" stroke="#232329" stroke-width="1"/>
+  </g>
+</svg>

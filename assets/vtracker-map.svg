@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1300 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Engineering map — network of domains and projects connected to Vinod M V">
+  <defs>
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="mapGrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect width="1300" height="820" rx="10" fill="#07070a"/>
+  <rect width="1300" height="820" rx="10" fill="url(#mapGrid)"/>
+  <rect width="1300" height="820" rx="10" fill="none" stroke="#232329"/>
+
+  <text x="40" y="52" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="3" fill="#ff1f3d">ENGINEERING MAP</text>
+  <text x="40" y="74" font-family="'JetBrains Mono',Consolas,monospace" font-size="11.5" letter-spacing="1.5" fill="#58585f">DOMAINS AND PROJECTS TRACED FROM ONE SIGNAL SOURCE</text>
+
+  <!-- concentric range rings around hub -->
+  <g stroke="#ff1f3d" fill="none">
+    <circle cx="650" cy="420" r="100" stroke-opacity="0.06"/>
+    <circle cx="650" cy="420" r="190" stroke-opacity="0.08"/>
+    <circle cx="650" cy="420" r="330" stroke-opacity="0.05"/>
+  </g>
+
+  <!-- ===== connections: project -> domain (web threads) ===== -->
+  <g stroke="#ff1f3d" stroke-width="1" stroke-opacity="0.30">
+    <!-- Orbital Resume AI (300,620) -> AI(430,410) BACKEND(810,270) DATABASE(650,600) FRONTEND(870,410) -->
+    <path id="p1a" d="M300,620 L430,410"/>
+    <path id="p1b" d="M300,620 L810,270"/>
+    <path id="p1c" d="M300,620 L650,600"/>
+    <path id="p1d" d="M300,620 L870,410"/>
+    <!-- QFAD (990,620) -> AI(430,410) BACKEND(810,270) DATABASE(650,600) FRONTEND(870,410) -->
+    <path id="p2a" d="M990,620 L430,410"/>
+    <path id="p2b" d="M990,620 L810,270"/>
+    <path id="p2c" d="M990,620 L650,600"/>
+    <path id="p2d" d="M990,620 L870,410"/>
+    <!-- Spandana (990,190) -> BACKEND(810,270) FRONTEND(870,410) DATABASE(650,600) -->
+    <path id="p3a" d="M990,190 L810,270"/>
+    <path id="p3b" d="M990,190 L870,410"/>
+    <path id="p3c" d="M990,190 L650,600"/>
+    <!-- ECN (300,190) -> NETWORKS(490,270) -->
+    <path id="p4a" d="M300,190 L490,270"/>
+  </g>
+
+  <!-- hub spokes -->
+  <g stroke="#ffffff" stroke-width="1" stroke-opacity="0.09">
+    <line x1="650" y1="420" x2="650" y2="220"/>
+    <line x1="650" y1="420" x2="810" y2="270"/>
+    <line x1="650" y1="420" x2="870" y2="410"/>
+    <line x1="650" y1="420" x2="810" y2="550"/>
+    <line x1="650" y1="420" x2="650" y2="600"/>
+    <line x1="650" y1="420" x2="490" y2="550"/>
+    <line x1="650" y1="420" x2="430" y2="410"/>
+    <line x1="650" y1="420" x2="490" y2="270"/>
+  </g>
+
+  <!-- traveling pulses along project threads -->
+  <g fill="#ff1f3d">
+    <circle r="3"><animateMotion dur="3.4s" repeatCount="indefinite" begin="0s"><mpath href="#p1a"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="4.1s" repeatCount="indefinite" begin="0.6s"><mpath href="#p1b"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.8s" repeatCount="indefinite" begin="1.1s"><mpath href="#p1c"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="4.4s" repeatCount="indefinite" begin="1.7s"><mpath href="#p1d"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.6s" repeatCount="indefinite" begin="0.3s"><mpath href="#p2a"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="4.2s" repeatCount="indefinite" begin="0.9s"><mpath href="#p2b"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.9s" repeatCount="indefinite" begin="1.4s"><mpath href="#p2c"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="4.6s" repeatCount="indefinite" begin="2.0s"><mpath href="#p2d"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.5s" repeatCount="indefinite" begin="0.4s"><mpath href="#p3a"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="4.0s" repeatCount="indefinite" begin="1.0s"><mpath href="#p3b"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.7s" repeatCount="indefinite" begin="1.6s"><mpath href="#p3c"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.3s" repeatCount="indefinite" begin="0.2s"><mpath href="#p4a"/></animateMotion></circle>
+  </g>
+
+  <!-- hub -->
+  <g transform="translate(650,420)" font-family="'JetBrains Mono',Consolas,monospace" text-anchor="middle">
+    <circle r="64" fill="url(#hubGlow)"/>
+    <circle r="42" fill="#0b0b0e" stroke="#ff1f3d" stroke-width="2"/>
+    <circle r="42" fill="none" stroke="#ff1f3d" stroke-opacity="0.3">
+      <animate attributeName="r" values="42;58;42" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.4;0;0.4" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text y="-2" font-size="12.5" font-weight="700" fill="#f2f2f4">VINOD</text>
+    <text y="14" font-size="10.5" fill="#ff1f3d">M V</text>
+    <text y="76" font-size="11" letter-spacing="2" fill="#9a9aa2">SOFTWARE ENGINEERING</text>
+  </g>
+
+  <!-- domain nodes -->
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="11.5" text-anchor="middle">
+    <g transform="translate(650,220)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text y="-16" fill="#e8e8ea">DSA</text></g>
+    <g transform="translate(810,270)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text y="-16" fill="#e8e8ea">BACKEND</text></g>
+    <g transform="translate(870,410)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text x="30" y="4" text-anchor="start" fill="#e8e8ea">FRONTEND</text></g>
+    <g transform="translate(810,550)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text y="26" fill="#e8e8ea">MOBILE</text></g>
+    <g transform="translate(650,600)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text y="26" fill="#e8e8ea">DATABASE</text></g>
+    <g transform="translate(490,550)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text y="26" fill="#e8e8ea">CLOUD</text></g>
+    <g transform="translate(430,410)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text x="-30" y="4" text-anchor="end" fill="#e8e8ea">AI</text></g>
+    <g transform="translate(490,270)"><circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/><text y="-16" fill="#e8e8ea">NETWORKS</text></g>
+  </g>
+
+  <!-- project sighting nodes -->
+  <g font-family="'JetBrains Mono',Consolas,monospace">
+    <g transform="translate(300,620)">
+      <rect x="-118" y="-20" width="236" height="40" rx="5" fill="#101014" stroke="#21c979" stroke-opacity="0.6"/>
+      <circle cx="-100" cy="0" r="4" fill="#21c979"/>
+      <text x="-86" y="4" font-size="11.5" fill="#f2f2f4">AI RESUME BUILDER + ATS</text>
+    </g>
+    <g transform="translate(990,620)">
+      <rect x="-90" y="-20" width="180" height="40" rx="5" fill="#101014" stroke="#21c979" stroke-opacity="0.6"/>
+      <circle cx="-72" cy="0" r="4" fill="#21c979"/>
+      <text x="-58" y="4" font-size="11.5" fill="#f2f2f4">QUESTION FOR THE DAY</text>
+    </g>
+    <g transform="translate(990,190)">
+      <rect x="-78" y="-20" width="156" height="40" rx="5" fill="#101014" stroke="#21c979" stroke-opacity="0.6"/>
+      <circle cx="-60" cy="0" r="4" fill="#21c979"/>
+      <text x="-46" y="4" font-size="11.5" fill="#f2f2f4">SPANDANA SITE</text>
+    </g>
+    <g transform="translate(300,190)">
+      <rect x="-94" y="-20" width="188" height="40" rx="5" fill="#101014" stroke="#ffb020" stroke-opacity="0.6"/>
+      <circle cx="-76" cy="0" r="4" fill="#ffb020"/>
+      <text x="-62" y="4" font-size="11.5" fill="#f2f2f4">ECN CONGESTION CTRL</text>
+    </g>
+  </g>
+
+  <!-- legend -->
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="11" transform="translate(40,780)">
+    <circle cx="0" cy="-4" r="4" fill="#21c979"/><text x="12" y="0" fill="#9a9aa2">CONFIRMED / ACTIVE</text>
+    <circle cx="200" cy="-4" r="4" fill="#ffb020"/><text x="212" y="0" fill="#9a9aa2">DEVELOPING</text>
+    <circle cx="360" cy="-4" r="4" fill="#e8e8ea"/><text x="372" y="0" fill="#9a9aa2">DOMAIN NODE</text>
+  </g>
+</svg>
