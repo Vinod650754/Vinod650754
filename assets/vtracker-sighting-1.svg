@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sighting 001 — AI Resume Builder plus ATS Analyzer, confirmed and active, flagship record">
+  <defs>
+    <pattern id="s1Grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" rx="10" fill="#0b0b0e"/>
+  <rect width="1200" height="400" rx="10" fill="url(#s1Grid)"/>
+
+  <!-- faint radar texture -->
+  <g stroke="#ff1f3d" fill="none" opacity="0.6">
+    <circle cx="120" cy="200" r="90" stroke-opacity="0.05"/>
+    <circle cx="120" cy="200" r="150" stroke-opacity="0.04"/>
+  </g>
+
+  <rect width="1200" height="400" rx="10" fill="none" stroke="#232329"/>
+  <!-- left spine -->
+  <rect x="0" y="0" width="5" height="400" fill="#21c979"/>
+
+  <!-- corner ribbon -->
+  <polygon points="1200,0 1200,150 1050,0" fill="#21c979"/>
+  <text x="1130" y="52" transform="rotate(45,1130,52)" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" font-weight="700" letter-spacing="1.5" fill="#0b0b0e">CONFIRMED</text>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace">
+    <!-- reticle + sighting label -->
+    <g transform="translate(58,48)" stroke="#ff1f3d" fill="none">
+      <circle r="15" stroke-opacity="0.5">
+        <animate attributeName="r" values="15;19;15" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.55;0.2;0.55" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2.8" fill="#ff1f3d" stroke="none"/>
+      <line x1="0" y1="-21" x2="0" y2="-15"/><line x1="0" y1="15" x2="0" y2="21"/>
+      <line x1="-21" y1="0" x2="-15" y2="0"/><line x1="21" y1="0" x2="15" y2="0"/>
+    </g>
+    <text x="86" y="40" font-size="11.5" letter-spacing="2" fill="#58585f">SIGHTING 001 · FLAGSHIP RECORD</text>
+    <text x="86" y="68" font-size="26" font-weight="700" fill="#f2f2f4">AI RESUME BUILDER + ATS ANALYZER</text>
+
+    <g transform="translate(86,92)">
+      <rect width="132" height="24" rx="12" fill="none" stroke="#ff1f3d" stroke-opacity="0.5"/>
+      <text x="66" y="16" text-anchor="middle" font-size="11" letter-spacing="1" fill="#ff1f3d">FULL-STACK</text>
+    </g>
+    <g transform="translate(226,92)">
+      <rect width="192" height="24" rx="12" fill="none" stroke="#ff1f3d" stroke-opacity="0.5"/>
+      <text x="96" y="16" text-anchor="middle" font-size="11" letter-spacing="1" fill="#ff1f3d">AI-ASSISTED AUTHORING</text>
+    </g>
+
+    <line x1="58" y1="140" x2="1160" y2="140" stroke="#232329"/>
+
+    <text x="58" y="168" font-size="11.5" letter-spacing="2" fill="#ff1f3d">OBJECTIVE</text>
+    <text x="58" y="190" font-size="13" fill="#e8e8ea">A production-grade MERN application for writing and improving resumes with AI</text>
+    <text x="58" y="210" font-size="13" fill="#e8e8ea">assistance, then scoring them against ATS systems.</text>
+
+    <text x="58" y="244" font-size="11.5" letter-spacing="2" fill="#ff1f3d">DETECTED CAPABILITIES</text>
+
+    <g font-size="12" fill="#c9c9cf">
+      <g transform="translate(58,268)"><rect width="161" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="80.5" y="17" text-anchor="middle">JWT authentication</text></g>
+      <g transform="translate(231,268)"><rect width="231" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="115.5" y="17" text-anchor="middle">AI-assisted resume authoring</text></g>
+      <g transform="translate(474,268)"><rect width="112" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="56" y="17" text-anchor="middle">ATS analysis</text></g>
+      <g transform="translate(598,268)"><rect width="126" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="63" y="17" text-anchor="middle">PDF generation</text></g>
+      <g transform="translate(736,268)"><rect width="126" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="63" y="17" text-anchor="middle">email delivery</text></g>
+      <g transform="translate(874,268)"><rect width="91" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="45.5" y="17" text-anchor="middle">analytics</text></g>
+      <g transform="translate(977,268)"><rect width="133" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="66.5" y="17" text-anchor="middle">version history</text></g>
+
+      <g transform="translate(58,304)"><rect width="154" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="77" y="17" text-anchor="middle">live job matching</text></g>
+      <g transform="translate(224,304)"><rect width="182" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="91" y="17" text-anchor="middle">interview preparation</text></g>
+      <g transform="translate(418,304)"><rect width="168" height="26" rx="13" fill="#141418" stroke="#2a2a30"/><text x="84" y="17" text-anchor="middle">premium animated UI</text></g>
+    </g>
+
+    <rect x="58" y="348" width="4" height="34" fill="#ff1f3d"/>
+    <text x="74" y="362" font-size="12" fill="#9a9aa2"><tspan fill="#ff1f3d">BEST FEATURE</tspan> — resume building combined with PDF</text>
+    <text x="74" y="380" font-size="12" fill="#9a9aa2">generation and direct email delivery, end to end in one flow.</text>
+  </g>
+</svg>
