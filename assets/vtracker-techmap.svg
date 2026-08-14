@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology scan — radar map of skill domains with a detected signature readout">
+  <defs>
+    <radialGradient id="tmHub" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tmSweep" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="tmGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="720" rx="10" fill="#07070a"/>
+  <rect width="1200" height="720" rx="10" fill="url(#tmGrid)"/>
+  <rect width="1200" height="720" rx="10" fill="none" stroke="#232329"/>
+
+  <text x="40" y="46" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="3" fill="#ff1f3d">TECHNOLOGY SCAN</text>
+  <text x="40" y="64" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" letter-spacing="1.5" fill="#58585f">SWEEPING EACH DOMAIN FOR A SIGNATURE MATCH</text>
+
+  <!-- range rings -->
+  <g stroke="#ff1f3d" fill="none">
+    <circle cx="600" cy="260" r="95" stroke-opacity="0.06"/>
+    <circle cx="600" cy="260" r="185" stroke-opacity="0.09"/>
+    <circle cx="600" cy="260" r="270" stroke-opacity="0.05"/>
+  </g>
+
+  <!-- rotating radar sweep -->
+  <g transform="translate(600,260)">
+    <path d="M0 0 L270 0 A270 270 0 0 1 233 135 Z" fill="url(#tmSweep)">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- spokes -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+    <line x1="600" y1="260" x2="600" y2="75"/>
+    <line x1="600" y1="260" x2="744.7" y2="144.7"/>
+    <line x1="600" y1="260" x2="780.4" y2="301.2"/>
+    <line x1="600" y1="260" x2="680.3" y2="426.7"/>
+    <line x1="600" y1="260" x2="519.7" y2="426.7"/>
+    <line x1="600" y1="260" x2="419.6" y2="301.2"/>
+    <line x1="600" y1="260" x2="455.3" y2="144.7"/>
+  </g>
+
+  <!-- hub -->
+  <g transform="translate(600,260)" font-family="'JetBrains Mono',Consolas,monospace" text-anchor="middle">
+    <circle r="50" fill="url(#tmHub)"/>
+    <circle r="34" fill="#0b0b0e" stroke="#ff1f3d" stroke-width="2"/>
+    <text y="5" font-size="13" font-weight="700" fill="#f2f2f4">TECH</text>
+  </g>
+
+  <!-- category nodes, each pulses on a stagger to feel scanned -->
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="12" text-anchor="middle">
+    <g transform="translate(600,75)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="0s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="0s"/></circle>
+      <text y="-16" fill="#e8e8ea">LANGUAGES</text>
+    </g>
+    <g transform="translate(744.7,144.7)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="1s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="1s"/></circle>
+      <text x="34" y="4" text-anchor="start" fill="#e8e8ea">FRONTEND / MOBILE</text>
+    </g>
+    <g transform="translate(780.4,301.2)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="2s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="2s"/></circle>
+      <text x="34" y="4" text-anchor="start" fill="#e8e8ea">BACKEND</text>
+    </g>
+    <g transform="translate(680.3,426.7)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="3s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="3s"/></circle>
+      <text y="26" fill="#e8e8ea">DATABASE</text>
+    </g>
+    <g transform="translate(519.7,426.7)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="4s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="4s"/></circle>
+      <text y="26" fill="#e8e8ea">CLOUD</text>
+    </g>
+    <g transform="translate(419.6,301.2)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="5s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="5s"/></circle>
+      <text x="-34" y="4" text-anchor="end" fill="#e8e8ea">TOOLS</text>
+    </g>
+    <g transform="translate(455.3,144.7)">
+      <circle r="8" fill="#0b0b0e" stroke="#e8e8ea" stroke-width="1.5"/>
+      <circle r="8" fill="none" stroke="#ff1f3d"><animate attributeName="r" values="8;20;8" dur="7s" repeatCount="indefinite" begin="6s"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite" begin="6s"/></circle>
+      <text x="-34" y="4" text-anchor="end" fill="#e8e8ea">AI</text>
+    </g>
+  </g>
+
+  <!-- detected signature readout -->
+  <line x1="40" y1="530" x2="1160" y2="530" stroke="#232329"/>
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5">
+    <text x="40" y="558" fill="#ff1f3d" letter-spacing="2">SIGNATURE DETECTED</text>
+    <text x="40" y="586"><tspan fill="#58585f">LANGUAGES&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#e8e8ea">C · C++ · Java · Dart · JavaScript · Python</tspan></text>
+    <text x="40" y="610"><tspan fill="#58585f">FRONTEND / MOBILE&#160;</tspan><tspan fill="#e8e8ea">React · Flutter · HTML5 · CSS3</tspan></text>
+    <text x="40" y="634"><tspan fill="#58585f">BACKEND&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#e8e8ea">Node.js · Express.js · FastAPI</tspan></text>
+    <text x="40" y="658"><tspan fill="#58585f">DATABASE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#e8e8ea">MongoDB · PostgreSQL · MySQL · Supabase</tspan></text>
+    <text x="620" y="586"><tspan fill="#58585f">CLOUD&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#e8e8ea">AWS · Vercel · Render · Firebase</tspan></text>
+    <text x="620" y="610"><tspan fill="#58585f">TOOLS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#e8e8ea">Git · GitHub · VS Code · Postman · Canva</tspan></text>
+    <text x="620" y="634"><tspan fill="#58585f">AI&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#e8e8ea">OpenAI / compatible APIs</tspan></text>
+  </g>
+
+  <g transform="translate(40,690)">
+    <circle cx="0" cy="-4" r="4" fill="#21c979">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="14" y="0" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" letter-spacing="1.5" fill="#9a9aa2">SCAN COMPLETE</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System telemetry — live contribution board with signal tracing across it">
+  <defs>
+    <pattern id="wbGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="10" fill="#0b0b0e"/>
+  <rect width="1200" height="300" rx="10" fill="url(#wbGrid)"/>
+  <rect width="1200" height="300" rx="10" fill="none" stroke="#232329"/>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace">
+    <text x="40" y="42" font-size="13" letter-spacing="3" fill="#ff1f3d">SYSTEM TELEMETRY</text>
+    <text x="40" y="60" font-size="10.5" letter-spacing="1.5" fill="#58585f">WEB TRAVERSAL SIGNAL — LIVE, PULLED FROM GITHUB</text>
+  </g>
+
+  <!-- corner threads framing the board -->
+  <g stroke="#ff1f3d" stroke-opacity="0.15" stroke-width="1">
+    <line x1="60" y1="90" x2="20" y2="30"/>
+    <line x1="1140" y1="90" x2="1180" y2="30"/>
+    <line x1="60" y1="240" x2="20" y2="280"/>
+    <line x1="1140" y1="240" x2="1180" y2="280"/>
+  </g>
+
+  <!-- live contribution board -->
+  <rect x="52" y="82" width="1096" height="166" rx="6" fill="#050506" stroke="#232329"/>
+  <image href="https://ghchart.rshah.org/ff1f3d/Vinod650754" x="70" y="98" width="1060" height="134" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- thread the crawler travels along -->
+  <path id="crawlPath" d="M110,165 C 300,120 500,210 700,150 S 1000,120 1120,165" fill="none" stroke="#ff1f3d" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="1 6"/>
+
+  <!-- crawler: minimal abstract eight-legged silhouette, not a character -->
+  <g>
+    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#crawlPath"/>
+    </animateMotion>
+    <g stroke="#ff1f3d" stroke-width="1.3" fill="none" opacity="0.95">
+      <line x1="0" y1="0" x2="-9" y2="-7"/>
+      <line x1="0" y1="0" x2="-11" y2="-1"/>
+      <line x1="0" y1="0" x2="-9" y2="6"/>
+      <line x1="0" y1="0" x2="9" y2="-7"/>
+      <line x1="0" y1="0" x2="11" y2="-1"/>
+      <line x1="0" y1="0" x2="9" y2="6"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="4.6" ry="3.4" fill="#ff1f3d"/>
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#ff1f3d" stroke-opacity="0.4">
+      <animate attributeName="r" values="9;15;9" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="1160" y="272" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" letter-spacing="1.5" fill="#58585f">● TRACING ACTIVITY</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Archives — categories of work caught in the web">
+  <defs>
+    <pattern id="arGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="280" rx="10" fill="#0b0b0e"/>
+  <rect width="1200" height="280" rx="10" fill="url(#arGrid)"/>
+  <rect width="1200" height="280" rx="10" fill="none" stroke="#232329"/>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace">
+    <text x="40" y="42" font-size="13" letter-spacing="3" fill="#ff1f3d">ARCHIVES</text>
+    <text x="40" y="60" font-size="10.5" letter-spacing="1.5" fill="#58585f">EVERYTHING CAUGHT IN THE WEB SO FAR</text>
+  </g>
+
+  <!-- trunk thread -->
+  <path d="M60,80 H1140" stroke="#ff1f3d" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- faint cross threads for web texture -->
+  <g stroke="#ff1f3d" stroke-opacity="0.08" stroke-width="1">
+    <path d="M60,80 Q380,110 700,80" fill="none"/>
+    <path d="M500,80 Q820,110 1140,80" fill="none"/>
+  </g>
+
+  <!-- 5 strands, each catching one category -->
+  <g font-family="'JetBrains Mono',Consolas,monospace" text-anchor="middle">
+    <!-- PROJECTS -->
+    <g transform="translate(150,80)">
+      <line x1="0" y1="0" x2="0" y2="46" stroke="#ff1f3d" stroke-opacity="0.4"/>
+      <circle cx="0" cy="46" r="4" fill="#ff1f3d"/>
+      <text x="0" y="72" font-size="13" font-weight="700" fill="#f2f2f4">PROJECTS</text>
+      <text x="0" y="94" font-size="10.5" fill="#9a9aa2">AI Resume Builder + ATS</text>
+      <text x="0" y="110" font-size="10.5" fill="#9a9aa2">QFAD · Spandana Website</text>
+    </g>
+    <!-- RESEARCH -->
+    <g transform="translate(390,80)">
+      <line x1="0" y1="0" x2="0" y2="46" stroke="#ff1f3d" stroke-opacity="0.4"/>
+      <circle cx="0" cy="46" r="4" fill="#ffb020"/>
+      <text x="0" y="72" font-size="13" font-weight="700" fill="#f2f2f4">RESEARCH</text>
+      <text x="0" y="94" font-size="10.5" fill="#9a9aa2">ECN-Based Proportional</text>
+      <text x="0" y="110" font-size="10.5" fill="#9a9aa2">Congestion Control</text>
+    </g>
+    <!-- EXPERIMENTS -->
+    <g transform="translate(630,80)">
+      <line x1="0" y1="0" x2="0" y2="46" stroke="#ff1f3d" stroke-opacity="0.4"/>
+      <circle cx="0" cy="46" r="4" fill="#3aa0ff"/>
+      <text x="0" y="72" font-size="13" font-weight="700" fill="#f2f2f4">EXPERIMENTS</text>
+      <text x="0" y="94" font-size="10.5" fill="#9a9aa2">AudioBook</text>
+    </g>
+    <!-- HACKATHONS -->
+    <g transform="translate(860,80)">
+      <line x1="0" y1="0" x2="0" y2="46" stroke="#ff1f3d" stroke-opacity="0.4"/>
+      <circle cx="0" cy="46" r="4" fill="#58585f"/>
+      <text x="0" y="72" font-size="13" font-weight="700" fill="#f2f2f4">HACKATHONS</text>
+      <text x="0" y="94" font-size="10.5" fill="#9a9aa2">HAL_LORD_CODERS</text>
+    </g>
+    <!-- LEARNING -->
+    <g transform="translate(1080,80)">
+      <line x1="0" y1="0" x2="0" y2="46" stroke="#ff1f3d" stroke-opacity="0.4"/>
+      <circle cx="0" cy="46" r="4" fill="#21c979"/>
+      <text x="0" y="72" font-size="13" font-weight="700" fill="#f2f2f4">LEARNING</text>
+      <text x="0" y="94" font-size="10.5" fill="#9a9aa2">Java DSA · SQL</text>
+      <text x="0" y="110" font-size="10.5" fill="#9a9aa2">System Design (queued)</text>
+    </g>
+  </g>
+
+  <!-- ambient drifting glints along the trunk -->
+  <circle r="2.4" fill="#ff1f3d">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M60,80 H1140"/>
+    <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
