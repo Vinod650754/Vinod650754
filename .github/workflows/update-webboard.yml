@@ -1,0 +1,43 @@
+name: Update webboard chart
+
+on:
+  schedule:
+    # Runs once a day at 03:17 UTC (off-the-hour to avoid GitHub Actions
+    # scheduling congestion at exact hours).
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+  push:
+    paths:
+      - "assets/vtracker-webboard.template.svg"
+      - "scripts/build-webboard.mjs"
+      - ".github/workflows/update-webboard.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-webboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build webboard SVG
+        run: node scripts/build-webboard.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/vtracker-webboard.svg; then
+            echo "No change in chart, nothing to commit."
+          else
+            git add assets/vtracker-webboard.svg
+            git commit -m "chore: refresh webboard contribution chart"
+            git push
+          fi
