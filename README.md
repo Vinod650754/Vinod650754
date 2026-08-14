@@ -44,23 +44,11 @@
 
 ## `PROJECT SIGHTINGS // 04`
 
-Status key used across every record below:
-🟢 `CONFIRMED / ACTIVE`  🟡 `DEVELOPING`  🔵 `EXPERIMENTAL`  ⚪ `ARCHIVED / HACKATHON`
+<img src="assets/vtracker-sightings-header.svg" width="100%" alt="Project sightings — status legend: confirmed active, developing, experimental, archived or hackathon">
 
 <br>
 
-<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
-
-### 🟢 SIGHTING 001 — AI Resume Builder + ATS Analyzer
-<sub>flagship record</sub>
-
-| FIELD | READING |
-|---|---|
-| **STATUS** | 🟢 CONFIRMED — ACTIVE |
-| **DOMAIN** | Full-stack · AI-assisted authoring |
-| **OBJECTIVE** | A production-grade MERN application for writing and improving resumes with AI assistance, then scoring them against ATS systems. |
-| **DETECTED CAPABILITIES** | JWT authentication · AI-assisted resume authoring · ATS analysis · PDF generation · email delivery · analytics · version history · live job matching · interview preparation · animated UI |
-| **BEST FEATURE** | Resume building combined with PDF generation and direct email delivery, end to end in one flow. |
+<img src="assets/vtracker-sighting-1.svg" width="100%" alt="Sighting 001 — AI Resume Builder + ATS Analyzer, confirmed and active">
 
 **TECHNOLOGY SIGNATURE**
 ![React](https://img.shields.io/badge/-React-101014?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/-Vite-101014?style=flat-square&logo=vite&logoColor=B073FF) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-101014?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Framer](https://img.shields.io/badge/-Framer_Motion-101014?style=flat-square&logo=framer&logoColor=e8e8ea) ![Recharts](https://img.shields.io/badge/-Recharts-101014?style=flat-square&logo=chartdotjs&logoColor=ff1f3d) ![Node.js](https://img.shields.io/badge/-Node.js-101014?style=flat-square&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/-Express-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![MongoDB](https://img.shields.io/badge/-MongoDB_Atlas-101014?style=flat-square&logo=mongodb&logoColor=47A248) ![JWT](https://img.shields.io/badge/-JWT-101014?style=flat-square&logo=jsonwebtokens&logoColor=e8e8ea) ![Nodemailer](https://img.shields.io/badge/-Nodemailer-101014?style=flat-square&logo=gmail&logoColor=EA4335) ![OpenAI](https://img.shields.io/badge/-OpenAI--compatible_API-101014?style=flat-square&logo=openai&logoColor=e8e8ea)
@@ -70,17 +58,7 @@ Status key used across every record below:
 
 <br>
 
-<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
-
-### 🟢 SIGHTING 002 — Question For The Day (QFAD)
-
-| FIELD | READING |
-|---|---|
-| **STATUS** | 🟢 CONFIRMED — ACTIVE, VERSION 1 |
-| **DOMAIN** | Full-stack · Adaptive learning |
-| **OBJECTIVE** | A production-ready adaptive learning platform: daily questions, AI-recommended follow-ups, XP, streaks, topic mastery, and leaderboards, with a full admin layer behind it. |
-| **DETECTED CAPABILITIES** | Daily question delivery · AI-recommended questions · XP and streak tracking · topic mastery tracking · leaderboards · admin question scheduling · dataset import · user management · analytics · streak resets · content moderation |
-| **BEST FEATURE** | Admin-side question scheduling paired with streak maintenance — the two systems that keep the platform alive day to day. |
+<img src="assets/vtracker-sighting-2.svg" width="100%" alt="Sighting 002 — Question For The Day, confirmed and active, version 1">
 
 **TECHNOLOGY SIGNATURE**
 ![React](https://img.shields.io/badge/-React-101014?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/-Vite-101014?style=flat-square&logo=vite&logoColor=B073FF) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-101014?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Axios](https://img.shields.io/badge/-Axios-101014?style=flat-square&logo=axios&logoColor=5A29E4) ![React Router](https://img.shields.io/badge/-React_Router-101014?style=flat-square&logo=reactrouter&logoColor=CA4245) ![Framer](https://img.shields.io/badge/-Framer_Motion-101014?style=flat-square&logo=framer&logoColor=e8e8ea) ![Node.js](https://img.shields.io/badge/-Node.js-101014?style=flat-square&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/-Express.js-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![JWT](https://img.shields.io/badge/-JWT-101014?style=flat-square&logo=jsonwebtokens&logoColor=e8e8ea) ![bcrypt](https://img.shields.io/badge/-bcrypt-101014?style=flat-square&logo=letsencrypt&logoColor=e8e8ea) ![Mongoose](https://img.shields.io/badge/-Mongoose-101014?style=flat-square&logo=mongoose&logoColor=880000) ![MongoDB](https://img.shields.io/badge/-MongoDB_Atlas-101014?style=flat-square&logo=mongodb&logoColor=47A248) ![Vercel](https://img.shields.io/badge/-Vercel-101014?style=flat-square&logo=vercel&logoColor=e8e8ea) ![Render](https://img.shields.io/badge/-Render_/_Railway-101014?style=flat-square&logo=render&logoColor=46E3B7)
@@ -90,17 +68,7 @@ Status key used across every record below:
 
 <br>
 
-<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
-
-### 🟢 SIGHTING 003 — Spandana Website
-
-| FIELD | READING |
-|---|---|
-| **STATUS** | 🟢 PRODUCTION — VERSION 1 |
-| **DOMAIN** | Full-stack · CMS · Social outreach |
-| **OBJECTIVE** | The official platform for the Spandana Social Outreach Club at Sir MVIT — a CMS-driven site for managing and showcasing events, registrations, gallery, team, and community activity. |
-| **DETECTED CAPABILITIES** | Event management · dynamic gallery · registrations · admin dashboard · content management without touching source code · responsive interface |
-| **BEST FEATURE** | Administrators can update the site's content — events, gallery, team — through the CMS without ever modifying the source code. |
+<img src="assets/vtracker-sighting-3.svg" width="100%" alt="Sighting 003 — Spandana Website, production, version 1">
 
 **TECHNOLOGY SIGNATURE**
 ![React](https://img.shields.io/badge/-React-101014?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/-Next.js-101014?style=flat-square&logo=next.js&logoColor=e8e8ea) ![TypeScript](https://img.shields.io/badge/-TypeScript-101014?style=flat-square&logo=typescript&logoColor=3178C6) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-101014?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Express](https://img.shields.io/badge/-Express-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-101014?style=flat-square&logo=postgresql&logoColor=4169E1) ![Supabase](https://img.shields.io/badge/-Supabase-101014?style=flat-square&logo=supabase&logoColor=3ECF8E) ![Cloudinary](https://img.shields.io/badge/-Cloudinary-101014?style=flat-square&logo=cloudinary&logoColor=3448C5)
@@ -110,17 +78,7 @@ Status key used across every record below:
 
 <br>
 
-<img src="assets/vtracker-reticle.svg" width="26" align="left" alt="">
-
-### 🟡 SIGHTING 004 — ECN-Based Proportional Congestion Control
-
-| FIELD | READING |
-|---|---|
-| **STATUS** | 🟡 DEVELOPING — not yet deployed |
-| **DOMAIN** | Computer Networks |
-| **FOCUS** | Explicit Congestion Notification (ECN) and proportional congestion control |
-
-No public repository or implementation details yet — this one's still classified until there's something concrete to show.
+<img src="assets/vtracker-sighting-4.svg" width="100%" alt="Sighting 004 — ECN-based proportional congestion control, developing, not yet deployed">
 
 <br>
 
@@ -140,7 +98,7 @@ No public repository or implementation details yet — this one's still classifi
 
 ## `TECHNOLOGY SCAN // 05`
 
-<img src="assets/vtracker-techscan.svg" width="100%" alt="Technology scan in progress">
+<img src="assets/vtracker-techmap.svg" width="100%" alt="Technology scan — radar map of skill domains with a detected signature readout">
 
 <br>
 
@@ -216,7 +174,7 @@ No public repository or implementation details yet — this one's still classifi
 
 ## `SYSTEM TELEMETRY // 08`
 
-<img src="assets/vtracker-webframe.svg" width="100%" alt="System telemetry — web traversal signal, live">
+<img src="assets/vtracker-webboard.svg" width="100%" alt="System telemetry — a signal tracing across your live GitHub contribution board">
 
 <div align="center">
 
@@ -230,15 +188,7 @@ No public repository or implementation details yet — this one's still classifi
 
 ## `ARCHIVES // 09`
 
-Everything on this profile, sorted into one place.
-
-| CASE FILE | CONTENTS |
-|---|---|
-| **PROJECTS** | AI Resume Builder + ATS · QFAD · Spandana Website |
-| **RESEARCH** | ECN-Based Proportional Congestion Control |
-| **EXPERIMENTS** | AudioBook |
-| **HACKATHONS** | HAL_LORD_CODERS |
-| **LEARNING** | Java DSA · SQL · System Design (queued) |
+<img src="assets/vtracker-archives.svg" width="100%" alt="Archives — categories of work caught in the web: projects, research, experiments, hackathons, learning">
 
 <br>
 
