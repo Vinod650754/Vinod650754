@@ -178,6 +178,12 @@
 
 <div align="center">
 
+<img src="https://ghchart.rshah.org/ff1f3d/Vinod650754" width="90%" alt="Vinod's live GitHub contribution board">
+
+</div>
+
+<div align="center">
+
 ![Stats](https://github-readme-stats.vercel.app/api?username=Vinod650754&hide_border=true&count_private=true&include_all_commits=true&bg_color=07070a&title_color=ff1f3d&icon_color=ff1f3d&text_color=9a9aa2&border_color=232329)
 ![Streak](https://streak-stats.demolab.com/?user=Vinod650754&hide_border=true&background=07070a&ring=ff1f3d&fire=ff1f3d&currStreakLabel=e8e8ea&sideNums=e8e8ea&currStreakNum=e8e8ea&sideLabels=9a9aa2&dates=58585f&border=232329)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vinod650754&hide_border=true&layout=compact&bg_color=07070a&title_color=ff1f3d&text_color=9a9aa2&border_color=232329)
