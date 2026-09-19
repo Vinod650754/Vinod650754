@@ -48,7 +48,17 @@
 
 <br>
 
-<img src="assets/vtracker-sighting-1.svg" width="100%" alt="Sighting 001 — AI Resume Builder + ATS Analyzer, confirmed and active">
+<img src="assets/vtracker-sighting-campusconnect.svg" width="100%" alt="Sighting 001 — CampusConnect, confirmed and active">
+
+**TECHNOLOGY SIGNATURE**
+![Flutter](https://img.shields.io/badge/-Flutter-101014?style=flat-square&logo=flutter&logoColor=02569B) ![Dart](https://img.shields.io/badge/-Dart-101014?style=flat-square&logo=dart&logoColor=0175C2) ![Node.js](https://img.shields.io/badge/-Node.js-101014?style=flat-square&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/-Express.js-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-101014?style=flat-square&logo=postgresql&logoColor=4169E1) ![REST API](https://img.shields.io/badge/-REST_API-101014?style=flat-square&logo=fastapi&logoColor=009688) ![Render](https://img.shields.io/badge/-Render-101014?style=flat-square&logo=render&logoColor=46E3B7)
+
+[![View Repository](https://img.shields.io/badge/VIEW_REPOSITORY-ff1f3d?style=for-the-badge&logo=github&logoColor=e8e8ea&labelColor=101014)](https://github.com/Vinod650754/CampusConnect)
+[![Download APK](https://img.shields.io/badge/DOWNLOAD_APK-21c979?style=for-the-badge&logo=android&logoColor=101014&labelColor=101014)](https://github.com/Vinod650754/CampusConnect/releases/latest)
+
+<br>
+
+<img src="assets/vtracker-sighting-1.svg" width="100%" alt="Sighting 002 — AI Resume Builder + ATS Analyzer, confirmed and active">
 
 **TECHNOLOGY SIGNATURE**
 ![React](https://img.shields.io/badge/-React-101014?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/-Vite-101014?style=flat-square&logo=vite&logoColor=B073FF) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-101014?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Framer](https://img.shields.io/badge/-Framer_Motion-101014?style=flat-square&logo=framer&logoColor=e8e8ea) ![Recharts](https://img.shields.io/badge/-Recharts-101014?style=flat-square&logo=chartdotjs&logoColor=ff1f3d) ![Node.js](https://img.shields.io/badge/-Node.js-101014?style=flat-square&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/-Express-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![MongoDB](https://img.shields.io/badge/-MongoDB_Atlas-101014?style=flat-square&logo=mongodb&logoColor=47A248) ![JWT](https://img.shields.io/badge/-JWT-101014?style=flat-square&logo=jsonwebtokens&logoColor=e8e8ea) ![Nodemailer](https://img.shields.io/badge/-Nodemailer-101014?style=flat-square&logo=gmail&logoColor=EA4335) ![OpenAI](https://img.shields.io/badge/-OpenAI--compatible_API-101014?style=flat-square&logo=openai&logoColor=e8e8ea)
@@ -58,7 +68,7 @@
 
 <br>
 
-<img src="assets/vtracker-sighting-2.svg" width="100%" alt="Sighting 002 — Question For The Day, confirmed and active, version 1">
+<img src="assets/vtracker-sighting-2.svg" width="100%" alt="Sighting 003 — Question For The Day, confirmed and active, version 1">
 
 **TECHNOLOGY SIGNATURE**
 ![React](https://img.shields.io/badge/-React-101014?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/-Vite-101014?style=flat-square&logo=vite&logoColor=B073FF) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-101014?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Axios](https://img.shields.io/badge/-Axios-101014?style=flat-square&logo=axios&logoColor=5A29E4) ![React Router](https://img.shields.io/badge/-React_Router-101014?style=flat-square&logo=reactrouter&logoColor=CA4245) ![Framer](https://img.shields.io/badge/-Framer_Motion-101014?style=flat-square&logo=framer&logoColor=e8e8ea) ![Node.js](https://img.shields.io/badge/-Node.js-101014?style=flat-square&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/-Express.js-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![JWT](https://img.shields.io/badge/-JWT-101014?style=flat-square&logo=jsonwebtokens&logoColor=e8e8ea) ![bcrypt](https://img.shields.io/badge/-bcrypt-101014?style=flat-square&logo=letsencrypt&logoColor=e8e8ea) ![Mongoose](https://img.shields.io/badge/-Mongoose-101014?style=flat-square&logo=mongoose&logoColor=880000) ![MongoDB](https://img.shields.io/badge/-MongoDB_Atlas-101014?style=flat-square&logo=mongodb&logoColor=47A248) ![Vercel](https://img.shields.io/badge/-Vercel-101014?style=flat-square&logo=vercel&logoColor=e8e8ea) ![Render](https://img.shields.io/badge/-Render_/_Railway-101014?style=flat-square&logo=render&logoColor=46E3B7)
@@ -68,7 +78,7 @@
 
 <br>
 
-<img src="assets/vtracker-sighting-3.svg" width="100%" alt="Sighting 003 — Spandana Website, production, version 1">
+<img src="assets/vtracker-sighting-3.svg" width="100%" alt="Sighting 004 — Spandana Website, production, version 1">
 
 **TECHNOLOGY SIGNATURE**
 ![React](https://img.shields.io/badge/-React-101014?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/-Next.js-101014?style=flat-square&logo=next.js&logoColor=e8e8ea) ![TypeScript](https://img.shields.io/badge/-TypeScript-101014?style=flat-square&logo=typescript&logoColor=3178C6) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-101014?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Express](https://img.shields.io/badge/-Express-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-101014?style=flat-square&logo=postgresql&logoColor=4169E1) ![Supabase](https://img.shields.io/badge/-Supabase-101014?style=flat-square&logo=supabase&logoColor=3ECF8E) ![Cloudinary](https://img.shields.io/badge/-Cloudinary-101014?style=flat-square&logo=cloudinary&logoColor=3448C5)
@@ -78,7 +88,7 @@
 
 <br>
 
-<img src="assets/vtracker-sighting-4.svg" width="100%" alt="Sighting 004 — ECN-based proportional congestion control, developing, not yet deployed">
+<img src="assets/vtracker-sighting-4.svg" width="100%" alt="Sighting 005 — ECN-based proportional congestion control, developing, not yet deployed">
 
 <br>
 
