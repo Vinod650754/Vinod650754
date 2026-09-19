@@ -48,7 +48,7 @@
 
 <br>
 
-<img src="assets/vtracker-sighting-campusconnect.svg" width="100%" alt="Sighting 001 — CampusConnect, confirmed and active">
+<img src="assets/vtracker-sighting-campusconnect_detailed.svg" width="100%" alt="Sighting 001 — CampusConnect, confirmed and active">
 
 **TECHNOLOGY SIGNATURE**
 ![Flutter](https://img.shields.io/badge/-Flutter-101014?style=flat-square&logo=flutter&logoColor=02569B) ![Dart](https://img.shields.io/badge/-Dart-101014?style=flat-square&logo=dart&logoColor=0175C2) ![Node.js](https://img.shields.io/badge/-Node.js-101014?style=flat-square&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/-Express.js-101014?style=flat-square&logo=express&logoColor=e8e8ea) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-101014?style=flat-square&logo=postgresql&logoColor=4169E1) ![REST API](https://img.shields.io/badge/-REST_API-101014?style=flat-square&logo=fastapi&logoColor=009688) ![Render](https://img.shields.io/badge/-Render-101014?style=flat-square&logo=render&logoColor=46E3B7)
